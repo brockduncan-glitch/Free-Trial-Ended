@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Bio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO.</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+                <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+                <p>Digital Strategist & Creative Designer based in New York.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I help brands grow by creating meaningful digital experiences. With over 5 years of experience in the industry, I specialize in UI/UX design, brand identity, and content strategy.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+                <a href="#">Email</a>
+            </div>
+            <p class="copyright">&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
